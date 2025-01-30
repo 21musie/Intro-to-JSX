@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDom from "react-dom";
+import Heading from "./Heading";
+import UnorderedList from "./UnorderedList";
 
 ReactDom.render(
   <div>
-    <h1>Hello mars</h1>
-    unorders
+    <Heading />
+    <UnorderedList />
   </div>,
   document.getElementById("root")
 );
