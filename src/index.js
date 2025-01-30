@@ -1,12 +1,5 @@
 import React from "react";
 import ReactDom from "react-dom";
-import Heading from "./Heading";
-import UnorderedList from "./UnorderedList";
+import App from "./components/App";
 
-ReactDom.render(
-  <div>
-    <Heading />
-    <UnorderedList />
-  </div>,
-  document.getElementById("root")
-);
+ReactDom.render(<App />, document.getElementById("root"));
